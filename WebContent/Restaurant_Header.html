@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+#style2{
+text-align: center;
+background-color: greenyellow;
+color: blue;
+margin-left: 500px;
+}
+</style>
+</head>
+
+
+
+<body onload="getDate()">
+<script type="text/javascript">
+function getDate(){
+document.getELementById("date").innerHTML = new Date().toString();
+}
+</script>
+
+<div id="style2">
+<h1>Welcome to Paradise Restaurant</h1>
+<h2>Bangalore India</h2>
+<p id="date"></p>
+</div>
+</body>
+</html>

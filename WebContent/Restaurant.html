@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+	@IMPORT url("style/style1.css");
+</style>
+</head>
+
+<body>
+
+<form action="OrderServlet" method="post">
+	<label for="id">Enter Id</label>
+	<input id="id" name="id"><br>
+	
+	<label for="name">Enter Name</label>
+	<input id="name" name="name"><br>
+	
+	<label>Select Menu Type</label>
+	<input id="type" name="type" type="radio" value="veg">Veg
+	<input id="type" name="type" type="radio" value="nonveg">Non Veg
+	<input id="type" name="type" type="radio" value="chinese">Chinese<br>
+	
+	<input type="submit" value="Login">
+	<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>

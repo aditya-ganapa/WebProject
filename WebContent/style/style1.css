@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+label {
+	padding: 10px;
+	margin: 10px;
+}
+input {
+	padding: 10px;
+	margin: 10px;
+
+}
+form {
+	margin-left: 35%;
+	margin-top: 10%;
+	background-color: green;
+	width: 35%;
+	border: inset blue 10px;
+}

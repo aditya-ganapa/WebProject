@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+	@IMPORT url("style/style1.css");
+</style>
+</head>
+<body>
+
+<script type="text/javascript" src="script/script1.js">
+
+</script>
+
+<form action="UserServlet" method="post" onsubmit="return validate()">
+	<label for="id">Enter Id</label>
+	<input id="id" name="id"><br>
+	
+	<label for="name">Enter Name</label>
+	<input id="name" name="name"><br>
+	
+	<label for="password">Enter Password</label>
+	<input id="password" name="password" type="password"><br>
+	
+	<input type="submit" value="Login">
+	<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
